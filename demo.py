@@ -2,19 +2,19 @@
 @paper: GAN Prior Embedded Network for Blind Face Restoration in the Wild (CVPR2021)
 @author: yangxy (yangtao9009@gmail.com)
 '''
-import os
-import cv2
-import glob
-import time
-import math
-import argparse
-import numpy as np
-from PIL import Image, ImageDraw
-import __init_paths
-from face_enhancement import FaceEnhancement
-from face_colorization import FaceColorization
-from face_inpainting import FaceInpainting
-from segmentation2face import Segmentation2Face
+# import os
+# import cv2
+# import glob
+# import time
+# import math
+# import argparse
+# import numpy as np
+# from PIL import Image, ImageDraw
+# import __init_paths
+# from face_enhancement import FaceEnhancement
+# from face_colorization import FaceColorization
+# from face_inpainting import FaceInpainting
+# from segmentation2face import Segmentation2Face
 
 def brush_stroke_mask(img, color=(255,255,255)):
     min_num_vertex = 8
